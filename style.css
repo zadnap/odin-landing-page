@@ -109,3 +109,21 @@ header a {
     width: 100%;
     border-radius: 10px;
 }
+
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #1F2937;
+}
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+}
+.quote strong {
+    font-size: 24px;
+    align-self: self-end;
+}
