@@ -127,3 +127,43 @@ header a {
     font-size: 24px;
     align-self: self-end;
 }
+
+/* Call to action */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.call-to-action .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 70px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+.call-to-action .container h3 {
+    color: #F9FAF8;
+}
+.call-to-action .container p {
+    color: #E5E7EB;
+}
+.call-to-action .container button {
+    padding: 8px 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
