@@ -76,3 +76,36 @@ header a {
     width: 500px;
     flex-shrink: 0;
 }
+
+/* Information */
+.information {
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+.information h1 {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+.information ul {
+    display: flex;
+    gap: 30px;
+    padding: 0 200px;
+}
+.information li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.information li p {
+    text-align: center;
+    color: grey;
+    font-weight: 500;
+}
+.information li img {
+    width: 100%;
+    border-radius: 10px;
+}
